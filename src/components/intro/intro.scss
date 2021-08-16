@@ -98,7 +98,7 @@
 
         span {
           font-size: inherit;
-          color: rgba($color: #2dabff, $alpha: 1);
+          color: $secondaryColor;
         }
 
         .ityped-cursor {
@@ -118,12 +118,11 @@
     a {
       position: absolute;
       bottom: 10px;
-      left: 45%;
       overflow: hidden;
 
       .downArrow {
-        font-size: 40px;
-        color: rgba($color: #2dabff, $alpha: 1);
+        font-size: 50px;
+        color: $secondaryColor;
         animation: arrowBlink 1.5s infinite alternate;
       }
       @keyframes arrowBlink {

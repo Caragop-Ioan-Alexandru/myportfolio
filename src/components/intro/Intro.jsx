@@ -27,7 +27,7 @@ export default function Intro() {
                     <h1>Ioan-Alexandru Caragop</h1>
                     <h3>Junior <span ref={textRef}></span></h3>
                 </div>
-                <a href="#portfolio">
+                <a href="#about">
                     <ArrowDownwardIcon className="downArrow"/>
                 </a>
             </div>
